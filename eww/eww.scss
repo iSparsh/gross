@@ -1,0 +1,117 @@
+* {
+  all: unset;
+  font-family: "JetBrains Mono";
+}
+// WINDOW RELATED CSS
+.bg {
+  background-color: #1E222A;
+  border: 2px solid #80A0C0;
+}
+
+.notes {
+  padding: 10px 20px 10px 5px;
+}
+
+window {
+  background: #2e3440;
+  color: #ebcb8b;
+  //border-radius: 2rem;
+  border: 3px solid #80A0C0;
+}
+
+// MISC EDITING
+.uinfo {
+  font-size: 1.25rem;
+}
+.cpu {
+  padding: 19px;
+}
+
+// METRIC LOOKS
+.metric scale trough highlight {
+  all: unset;
+  color: #000000;
+  background: linear-gradient(90deg, #88c0d0 0%, #81a1c1  50%, #5E81ac 100%);
+  //border-radius: 10px;
+}
+.metric scale trough {
+  all: unset;
+  background-color: #545454;
+  //border-radius: 50px;
+  min-height: 10px;
+  min-width: 100px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.metric .label {
+  color: #B48EAD;
+  font-size: 1.5rem;
+}
+
+// POWERMENU
+.bigpowermenu {
+  font-size: 3rem;
+}
+
+.quicksettings {
+  font-size: 1.75rem;
+}
+
+// WIDGET MISC SETTINGS
+
+.quote-text {
+  padding: 5px;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 600;
+  color: #BF616A;
+}
+
+.appbar{
+  font-size: 2rem;
+}
+
+.cal {
+  color: #8fbcbb;
+  padding: 5px;
+  padding-bottom: 1px;
+}
+
+.favs {
+  color: #ECEFF4;
+  font-size: 2rem;
+}
+
+.small-date {
+  font-weight: 700;
+}
+
+// Search App CSS
+.searchapps-bar {
+  color: #88c0d0;
+  font-size: 1.5rem;
+  margin: -2px;
+  padding: 30px 90px 30px 90px;
+  background-color: #1E222A;
+  border: 6px solid #80A0C0;
+}
+.search-bar {
+  color: #88c0d0;
+}
+.search-label {
+  font-family: "Iosevka";
+  font-size: 2rem;
+  font-weight: 700;
+  padding-right: 20px;
+}
+.app-container {
+  margin: -2px;
+  font-size: 1.25rem;
+  padding: 30px;
+  color: #88c0d0;
+}
+.item {
+  padding: 10px;
+  background: rgba(10,10,10,0.4);
+}
