@@ -1,0 +1,20 @@
+;;;; QUOTE
+
+(defpoll quote_text :interval "3600s" `fortune -n 90 -s`)
+
+;;;; FETCH AND DATE
+
+(defpoll TODAY :interval "1s" `date +%m/%d/%y`)
+(defpoll distro :interval "12h" "awk '/^ID=/' /etc/*-release | awk -F'=' '{ print tolower($2) }'")
+(defpoll de :interval "12h" "echo $XDG_CURRENT_DESKTOP")
+(defpoll wm :interval "12h" "wmctrl -m | grep \"Name:\" | awk '{print $2}'")
+(defpoll shell :interval "5m" "echo $SHELL | awk -F'/' '{print $NF}'")
+(defpoll uptime :interval "30s" "uptime -p | sed -e 's/up //;s/ hours,/h/;s/ minutes/m/'")
+(defpoll packages :interval "5m" "pacman -Q | wc -l")
+
+;;;; NOTES
+
+(defpoll NOTES :interval "1s" "cat -s ~/Documents/notes.txt")
+
+;;;; App list LISTEN VAR
+(defpoll search_listen :interval "1s" "cat ~/.config/eww/scripts/search_items.txt")
