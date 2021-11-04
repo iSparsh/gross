@@ -1,1 +1,0 @@
-(box :orientation "v" :spacing 5 :class "apps" :halign "center" :valign "center"  (button :class "item" :onclick "pcmanfm &" "pcmanfm"))
