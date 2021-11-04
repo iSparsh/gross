@@ -2,7 +2,7 @@
 A Collection of my ![eww](https://www.github.com/elkowar/eww/) configurations using YUCK!
 
 ## Showcase 📷
-![gross_showcase](https://user-images.githubusercontent.com/57213270/140280199-4921c0bb-fd95-4aed-96a9-5d01a5eb11da.png)
+![gross_showcase](https://user-images.githubusercontent.com/57213270/140309158-e65cbc1d-f3a8-4aec-848c-eef800de3364.png)
 
 
 ## Contents 🖼
@@ -24,3 +24,7 @@ A Collection of my ![eww](https://www.github.com/elkowar/eww/) configurations us
 
 1 directory, 7 files
 ```
+
+## TODO
+- [ ] Bar
+- [ ] Music Player
