@@ -14,9 +14,9 @@ A Collection of my ![eww](https://www.github.com/elkowar/eww/) configurations us
 ```bash
 ~/.config/eww/
 ├── eww.scss
-├── eww_variables
-├── eww_widgets
-├── eww_windows
+├── eww_variables.yuck
+├── eww_widgets.yuck
+├── eww_windows.yuck
 ├── eww.yuck
 └── scripts
     ├── search_items.txt
