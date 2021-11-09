@@ -12,9 +12,11 @@
 (defpoll uptime :interval "30s" "uptime -p | sed -e 's/up //;s/ hours,/h/;s/ minutes/m/'")
 (defpoll packages :interval "5m" "pacman -Q | wc -l")
 
-;;;; NOTES
+;;;; NOTES, MUSIC, NETWORKING
 
 (defpoll NOTES :interval "1s" "cat -s ~/Documents/notes.txt")
+(defpoll music_current :interval "1s" "mpc current")
+(defpoll ssid :interval "1s" "iwgetid -r || echo 'Disconnected'")
 
 ;;;; App list LISTEN VAR
 (defpoll search_listen :interval "1s" "cat ~/.config/eww/scripts/search_items.txt")
