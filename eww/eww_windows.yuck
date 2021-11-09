@@ -1,7 +1,7 @@
 ; -> WINDOWS FOR EWW WIDGETS <- ;
 
 ;;;; IMPORTS
-(include "eww_widgets")
+(include "eww_widgets.yuck")
 
 ;;;; Fetch widget window
 
@@ -157,3 +157,35 @@
                       :anchor "center center")
 (bigpowermenu))
 
+(defwindow musicplayer
+  :wm-ignore true
+  :monitor 0
+  :windowtype "dock"
+  :geometry (geometry :x "0px"
+                      :y "0%"
+                      :width "20%"
+                      :height "10%"
+                      :anchor "center center")
+(musicplayer))
+
+(defwindow network
+  :wm-ignore true
+  :monitor 0
+  :windowtype "dock"
+  :geometry (geometry :x "0px"
+                      :y "0%"
+                      :width "20%"
+                      :height "10%"
+                      :anchor "center center")
+(network))
+
+(defwindow screenshot
+  :wm-ignore true
+  :monitor 0
+  :windowtype "normal"
+  :geometry (geometry :x "0px"
+                      :y "0%"
+                      :width "20%"
+                      :height "10%"
+                      :anchor "center center")
+(screenshot))
