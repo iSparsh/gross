@@ -27,4 +27,4 @@ A Collection of my [eww](https://www.github.com/elkowar/eww/) configurations usi
 
 ## TODO
 - [ ] Bar
-- [ ] Music Player
+- [x] Music Player
