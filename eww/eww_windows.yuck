@@ -182,7 +182,7 @@
 (defwindow screenshot
   :wm-ignore true
   :monitor 0
-  :windowtype "normal"
+  :windowtype "dock"
   :geometry (geometry :x "0px"
                       :y "0%"
                       :width "20%"
